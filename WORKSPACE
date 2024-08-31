@@ -4,13 +4,12 @@
 # and to define workspace-level options. It is loaded before
 # the BUILD files in the workspace, so it can be used to
 # define functions and macros that can be used in the BUILD
-
 workspace(name = "bazel_battle")
+load("functions.bzl", "get_joke_allowed", "print_1_to_10")
 
 
-
-load("functions.bzl", "get_joke_allowed")
 build_name="BazelBattle"
 
 print(build_name)
 print(get_joke_allowed(build_name))
+print_1_to_10()
