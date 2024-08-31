@@ -5,6 +5,7 @@
 # the BUILD files in the workspace, so it can be used to
 # define functions and macros that can be used in the BUILD
 
+workspace(name = "bazel_battle")
 
 
 
