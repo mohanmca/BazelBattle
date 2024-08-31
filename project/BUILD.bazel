@@ -1,0 +1,6 @@
+java_binary(
+    name="Hello",
+    srcs=glob(["src/main/com/example/*.java"]),
+    main_class="com.example.Hello",
+    resources=glob(["src/main/resources/*.txt"]),
+)
